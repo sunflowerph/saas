@@ -737,100 +737,100 @@ if __name__ == "__main__":
     testunit.addTest(TestStore("test_aa_login")) #登录商超门店
     testunit.addTest(TestStore("test_ab_editbase_information")) #修改企业基本信息
     testunit.addTest(TestStore("test_ac_edit")) #修改企业主体编码为已存在的企业主体编码
-    testunit.addTest(TestStore("test_ba_add_staff"))#新增员工
-    testunit.addTest(TestStore("test_bb_search_staff1"))#通过姓名搜索员工
-    testunit.addTest(TestStore("test_bc_search_staff2"))#通过电话搜索员工
-    testunit.addTest(TestStore("test_bd_search_staff3"))#精确搜索
-    testunit.addTest(TestStore("test_be_search_staff4"))#模糊搜索
-    testunit.addTest(TestStore("test_bf_edit_staff"))#编辑员工信息
-    testunit.addTest(TestStore("test_bg_delete_staff"))#删除员工
-    testunit.addTest(TestStore("test_ca_close_menu"))#菜单收起
-    testunit.addTest(TestStore("test_cb_open_menu"))#菜单展开
-    testunit.addTest(TestStore("test_da_get_batch"))#查看首页批次数
-    testunit.addTest(TestStore("test_db_get_coding"))#查看首页赋码数
-    testunit.addTest(TestStore("test_dc_get_egistration"))#查看首页进货登记次数
-    testunit.addTest(TestStore("test_dd_get_goods_number"))#获取首页产品数
-    testunit.addTest(TestStore("test_de_get_supplier"))#获取首页供应商数
-    testunit.addTest(TestStore("test_df_get_bulk_cargo"))#获取首页中散货数量
-    testunit.addTest(TestStore("test_dg_get_prepackaging"))#获取首页中预包装货物数量
-    testunit.addTest(TestStore("test_ea_add_supplier"))#新增供应商
-    testunit.addTest(TestStore("test_eb_add_supplier1"))#新增已存在的供应商
-    testunit.addTest(TestStore("test_ec_edit_supplier"))#编辑供应商
-    testunit.addTest(TestStore("test_ed_edit_supplier1"))#编辑供应商时把供应商名称修改为已存在的名称
-    testunit.addTest(TestStore("test_ee_import_supplier"))#文档导入供应商
-    testunit.addTest(TestStore("test_ef_import_supplier1"))#导入已存在的供应商
-    testunit.addTest(TestStore("test_eg_search_supplier"))#搜索供应商
-    testunit.addTest(TestStore("test_eh_download_template"))#下载导入模板
-    testunit.addTest(TestStore("test_ei_delete_supplier"))#删除供应商
-    testunit.addTest(TestStore("test_fa_add_goods"))#新增产品
-    testunit.addTest(TestStore("test_fb_edit_goods"))#编辑产品
-    testunit.addTest(TestStore("test_fc_sold_out_goods"))#下架产品
-    testunit.addTest(TestStore("test_fd_putaway_goods"))#上架产品
-    testunit.addTest(TestStore("test_fe_delete_goods1"))#删除商品
-    testunit.addTest(TestStore("test_ff_delete_goods2"))#删除绑定批次的产品
-    testunit.addTest(TestStore("test_fg_add_goods1"))#同一个供应商下，新增产品SKU与数据库相同
-    testunit.addTest(TestStore("test_fh_download_templet1"))#下载导入模板
-    testunit.addTest(TestStore("test_fi_import_goods"))#批量导入产品
-    testunit.addTest(TestStore("test_fj_download_templet2"))#下载标品导入模板
-    testunit.addTest(TestStore("test_fk_import_bp"))#标品导入
-    testunit.addTest(TestStore("test_fl_import2"))#同一个供应商下，导入数据库中已存在的SKU产品
-    testunit.addTest(TestStore("test_fm_alldelete_goods"))#全选删除产品
-    testunit.addTest(TestStore("test_fn_download_ewm"))#点击下载产品二维码
-    testunit.addTest(TestStore("test_fo_goods_information"))# 通过产品链接查看产品H5信息
-    testunit.addTest(TestStore("test_fp_select_goods1"))#按照搜索供应商查找产品
-    testunit.addTest(TestStore("test_fqa_product_type_1"))#产品列表中筛选预包装类型的产品
-    testunit.addTest(TestStore("test_fqb_product_type_2"))#产品列表中筛选散货类型的产品
-    testunit.addTest(TestStore("test_fqc_product_type_3"))#产品列表中筛选标品类型的产品
-    testunit.addTest(TestStore("test_fr_group_select"))#产品列表组合筛选产品
-    testunit.addTest(TestStore("test_fs_search_goods"))##根据其他信息搜索产品
-    testunit.addTest(TestStore("test_ga_add_testreport"))#新增检测报告
-    testunit.addTest(TestStore("test_gb_search_testreport2"))#根据检测名称搜索检测报告
-    testunit.addTest(TestStore("test_gc_edit_report"))#编辑检测报告
-    testunit.addTest(TestStore("test_gd_delete_report"))#删除检测报告
-    testunit.addTest(TestStore("test_ge_search_SalesRecord1"))#自定义时间搜索检测报告
-    testunit.addTest(TestStore("test_gf_edit_report1"))#编辑检测报告选择产品列表sku升降序排列
-    testunit.addTest(TestStore("test_ha_warning_query1"))#预警信息导出（食品经营许可证过期）
-    testunit.addTest(TestStore("test_hb_warning_query2"))#预警信息导出（食品经营许可证过期）
-    testunit.addTest(TestStore("test_hc_orderby_time1"))#预警信息按时间从大到小排序
-    testunit.addTest(TestStore("test_hd_orderby_time2"))#预警信息按时间从小到大排序
-    testunit.addTest(TestStore("test_he_warning_view0"))#查看营业执照过期的全部供应商
-    testunit.addTest(TestStore("test_hf_warning_view1"))#查看营业执照即将在一个月内过期的供应商
-    testunit.addTest(TestStore("test_hg_warning_view2"))#查看营业执照即将在两个月内过期的供应商
-    testunit.addTest(TestStore("test_hh_warning_view3"))#查看营业执照即将在三个月内过期的供应商
-    testunit.addTest(TestStore("test_hi_warning_view4"))#查看食品经营许可证的全部供应商
-    testunit.addTest(TestStore("test_hj_warning_view5"))#查看食品经营许可证即将在一个月内过期的供应商
-    testunit.addTest(TestStore("test_hk_warning_view6"))#查看食品经营许可证即将在两个月内过期的供应商
-    testunit.addTest(TestStore("test_hl_warning_view7"))#查看食品经营许可证即将在三个月内过期的供应商
-    testunit.addTest(TestStore("test_hm_search_warning"))#通过搜索供应商搜索预警信息
-    testunit.addTest(TestStore("test_ia_add_SalesRecord"))#新增销售记录
-    testunit.addTest(TestStore("test_ib_edit_SalesRecord"))#编辑销售记录
-    testunit.addTest(TestStore("test_ic_delete_SalesRecord"))#删除销售记录
-    testunit.addTest(TestStore("test_id_import_txt"))#添加销售记录-文档导入
-    testunit.addTest(TestStore("test_ie_search_SalesRecord1"))# 查找出库记录，自定义搜索时间范围
-    testunit.addTest(TestStore("test_if_search_SalesRecord2"))#根据出库单号搜索销售记录
-    testunit.addTest(TestStore("test_ig_orderby_sku"))#编辑产品出库时出库明细产品sku升、降序排列
-    testunit.addTest(TestStore("test_ih_print_outsale"))#打印产品出库
-    testunit.addTest(TestStore("test_ii_download_salestemplete"))#下载Excel导入的模板
-    testunit.addTest(TestStore("test_ja_stock_registration"))# 手动添加进货登记
-    testunit.addTest(TestStore("test_jb_edit_stock_registration"))# 编辑进货登记
-    testunit.addTest(TestStore("test_jc_goods_sort"))#编辑进货登记信息选择产品列表产品sku升、降序排列
-    testunit.addTest(TestStore("test_jd_delete_stock_registration"))# 删除进货登记
-    testunit.addTest(TestStore("test_je_download_template0"))#下载Excel导入的模板
-    testunit.addTest(TestStore("test_jf_excel_import"))#Excel导入进货登记信息
-    testunit.addTest(TestStore("test_jg_download_templatebp"))#下载导入标品的模板
-    testunit.addTest(TestStore("test_jh_bp_import"))# 标品导入
-    testunit.addTest(TestStore("test_ji_search_bytime"))#自定义时间搜索进货登记
-    testunit.addTest(TestStore("test_jj_search_byothers"))# #根据入库单或sku搜索进货登记信息
-    testunit.addTest(TestStore("test_ka_download_Prepaidcode"))# 下载预付码
-    testunit.addTest(TestStore("test_kb_download_Traceablity_code"))#下载追溯码
-    testunit.addTest(TestStore("test_kc_preview_ewm"))#预览二维码
-    testunit.addTest(TestStore("test_kd_preview_rq"))#通过预览二维码下方的链接查看H5批次信息
-    testunit.addTest(TestStore("test_ke_search_by_time1"))#自定义时间搜索检测报告
-    testunit.addTest(TestStore("test_kf_search_by_type"))#根据包装类型搜索批次信息
-    testunit.addTest(TestStore("test_kg_search_by_others"))#根据其他字段搜索批次信息
-    testunit.addTest(TestStore("test_la_add_store_feedback"))#新增门店反馈
-    testunit.addTest(TestStore("test_lb_search_feedback"))#搜索门店反馈
-    testunit.addTest(TestStore("test_lc_delete_feedback"))#删除门店反馈
+    # testunit.addTest(TestStore("test_ba_add_staff"))#新增员工
+    # testunit.addTest(TestStore("test_bb_search_staff1"))#通过姓名搜索员工
+    # testunit.addTest(TestStore("test_bc_search_staff2"))#通过电话搜索员工
+    # testunit.addTest(TestStore("test_bd_search_staff3"))#精确搜索
+    # testunit.addTest(TestStore("test_be_search_staff4"))#模糊搜索
+    # testunit.addTest(TestStore("test_bf_edit_staff"))#编辑员工信息
+    # testunit.addTest(TestStore("test_bg_delete_staff"))#删除员工
+    # testunit.addTest(TestStore("test_ca_close_menu"))#菜单收起
+    # testunit.addTest(TestStore("test_cb_open_menu"))#菜单展开
+    # testunit.addTest(TestStore("test_da_get_batch"))#查看首页批次数
+    # testunit.addTest(TestStore("test_db_get_coding"))#查看首页赋码数
+    # testunit.addTest(TestStore("test_dc_get_egistration"))#查看首页进货登记次数
+    # testunit.addTest(TestStore("test_dd_get_goods_number"))#获取首页产品数
+    # testunit.addTest(TestStore("test_de_get_supplier"))#获取首页供应商数
+    # testunit.addTest(TestStore("test_df_get_bulk_cargo"))#获取首页中散货数量
+    # testunit.addTest(TestStore("test_dg_get_prepackaging"))#获取首页中预包装货物数量
+    # testunit.addTest(TestStore("test_ea_add_supplier"))#新增供应商
+    # testunit.addTest(TestStore("test_eb_add_supplier1"))#新增已存在的供应商
+    # testunit.addTest(TestStore("test_ec_edit_supplier"))#编辑供应商
+    # testunit.addTest(TestStore("test_ed_edit_supplier1"))#编辑供应商时把供应商名称修改为已存在的名称
+    # testunit.addTest(TestStore("test_ee_import_supplier"))#文档导入供应商
+    # testunit.addTest(TestStore("test_ef_import_supplier1"))#导入已存在的供应商
+    # testunit.addTest(TestStore("test_eg_search_supplier"))#搜索供应商
+    # testunit.addTest(TestStore("test_eh_download_template"))#下载导入模板
+    # testunit.addTest(TestStore("test_ei_delete_supplier"))#删除供应商
+    # testunit.addTest(TestStore("test_fa_add_goods"))#新增产品
+    # testunit.addTest(TestStore("test_fb_edit_goods"))#编辑产品
+    # testunit.addTest(TestStore("test_fc_sold_out_goods"))#下架产品
+    # testunit.addTest(TestStore("test_fd_putaway_goods"))#上架产品
+    # testunit.addTest(TestStore("test_fe_delete_goods1"))#删除商品
+    # testunit.addTest(TestStore("test_ff_delete_goods2"))#删除绑定批次的产品
+    # testunit.addTest(TestStore("test_fg_add_goods1"))#同一个供应商下，新增产品SKU与数据库相同
+    # testunit.addTest(TestStore("test_fh_download_templet1"))#下载导入模板
+    # testunit.addTest(TestStore("test_fi_import_goods"))#批量导入产品
+    # testunit.addTest(TestStore("test_fj_download_templet2"))#下载标品导入模板
+    # testunit.addTest(TestStore("test_fk_import_bp"))#标品导入
+    # testunit.addTest(TestStore("test_fl_import2"))#同一个供应商下，导入数据库中已存在的SKU产品
+    # testunit.addTest(TestStore("test_fm_alldelete_goods"))#全选删除产品
+    # testunit.addTest(TestStore("test_fn_download_ewm"))#点击下载产品二维码
+    # testunit.addTest(TestStore("test_fo_goods_information"))# 通过产品链接查看产品H5信息
+    # testunit.addTest(TestStore("test_fp_select_goods1"))#按照搜索供应商查找产品
+    # testunit.addTest(TestStore("test_fqa_product_type_1"))#产品列表中筛选预包装类型的产品
+    # testunit.addTest(TestStore("test_fqb_product_type_2"))#产品列表中筛选散货类型的产品
+    # testunit.addTest(TestStore("test_fqc_product_type_3"))#产品列表中筛选标品类型的产品
+    # testunit.addTest(TestStore("test_fr_group_select"))#产品列表组合筛选产品
+    # testunit.addTest(TestStore("test_fs_search_goods"))##根据其他信息搜索产品
+    # testunit.addTest(TestStore("test_ga_add_testreport"))#新增检测报告
+    # testunit.addTest(TestStore("test_gb_search_testreport2"))#根据检测名称搜索检测报告
+    # testunit.addTest(TestStore("test_gc_edit_report"))#编辑检测报告
+    # testunit.addTest(TestStore("test_gd_delete_report"))#删除检测报告
+    # testunit.addTest(TestStore("test_ge_search_SalesRecord1"))#自定义时间搜索检测报告
+    # testunit.addTest(TestStore("test_gf_edit_report1"))#编辑检测报告选择产品列表sku升降序排列
+    # testunit.addTest(TestStore("test_ha_warning_query1"))#预警信息导出（食品经营许可证过期）
+    # testunit.addTest(TestStore("test_hb_warning_query2"))#预警信息导出（食品经营许可证过期）
+    # testunit.addTest(TestStore("test_hc_orderby_time1"))#预警信息按时间从大到小排序
+    # testunit.addTest(TestStore("test_hd_orderby_time2"))#预警信息按时间从小到大排序
+    # testunit.addTest(TestStore("test_he_warning_view0"))#查看营业执照过期的全部供应商
+    # testunit.addTest(TestStore("test_hf_warning_view1"))#查看营业执照即将在一个月内过期的供应商
+    # testunit.addTest(TestStore("test_hg_warning_view2"))#查看营业执照即将在两个月内过期的供应商
+    # testunit.addTest(TestStore("test_hh_warning_view3"))#查看营业执照即将在三个月内过期的供应商
+    # testunit.addTest(TestStore("test_hi_warning_view4"))#查看食品经营许可证的全部供应商
+    # testunit.addTest(TestStore("test_hj_warning_view5"))#查看食品经营许可证即将在一个月内过期的供应商
+    # testunit.addTest(TestStore("test_hk_warning_view6"))#查看食品经营许可证即将在两个月内过期的供应商
+    # testunit.addTest(TestStore("test_hl_warning_view7"))#查看食品经营许可证即将在三个月内过期的供应商
+    # testunit.addTest(TestStore("test_hm_search_warning"))#通过搜索供应商搜索预警信息
+    # testunit.addTest(TestStore("test_ia_add_SalesRecord"))#新增销售记录
+    # testunit.addTest(TestStore("test_ib_edit_SalesRecord"))#编辑销售记录
+    # testunit.addTest(TestStore("test_ic_delete_SalesRecord"))#删除销售记录
+    # testunit.addTest(TestStore("test_id_import_txt"))#添加销售记录-文档导入
+    # testunit.addTest(TestStore("test_ie_search_SalesRecord1"))# 查找出库记录，自定义搜索时间范围
+    # testunit.addTest(TestStore("test_if_search_SalesRecord2"))#根据出库单号搜索销售记录
+    # testunit.addTest(TestStore("test_ig_orderby_sku"))#编辑产品出库时出库明细产品sku升、降序排列
+    # testunit.addTest(TestStore("test_ih_print_outsale"))#打印产品出库
+    # testunit.addTest(TestStore("test_ii_download_salestemplete"))#下载Excel导入的模板
+    # testunit.addTest(TestStore("test_ja_stock_registration"))# 手动添加进货登记
+    # testunit.addTest(TestStore("test_jb_edit_stock_registration"))# 编辑进货登记
+    # testunit.addTest(TestStore("test_jc_goods_sort"))#编辑进货登记信息选择产品列表产品sku升、降序排列
+    # testunit.addTest(TestStore("test_jd_delete_stock_registration"))# 删除进货登记
+    # testunit.addTest(TestStore("test_je_download_template0"))#下载Excel导入的模板
+    # testunit.addTest(TestStore("test_jf_excel_import"))#Excel导入进货登记信息
+    # testunit.addTest(TestStore("test_jg_download_templatebp"))#下载导入标品的模板
+    # testunit.addTest(TestStore("test_jh_bp_import"))# 标品导入
+    # testunit.addTest(TestStore("test_ji_search_bytime"))#自定义时间搜索进货登记
+    # testunit.addTest(TestStore("test_jj_search_byothers"))# #根据入库单或sku搜索进货登记信息
+    # testunit.addTest(TestStore("test_ka_download_Prepaidcode"))# 下载预付码
+    # testunit.addTest(TestStore("test_kb_download_Traceablity_code"))#下载追溯码
+    # testunit.addTest(TestStore("test_kc_preview_ewm"))#预览二维码
+    # testunit.addTest(TestStore("test_kd_preview_rq"))#通过预览二维码下方的链接查看H5批次信息
+    # testunit.addTest(TestStore("test_ke_search_by_time1"))#自定义时间搜索检测报告
+    # testunit.addTest(TestStore("test_kf_search_by_type"))#根据包装类型搜索批次信息
+    # testunit.addTest(TestStore("test_kg_search_by_others"))#根据其他字段搜索批次信息
+    # testunit.addTest(TestStore("test_la_add_store_feedback"))#新增门店反馈
+    # testunit.addTest(TestStore("test_lb_search_feedback"))#搜索门店反馈
+    # testunit.addTest(TestStore("test_lc_delete_feedback"))#删除门店反馈
 
 
     filename = '/users/ph/desktop/result.html'
