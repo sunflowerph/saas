@@ -1,5 +1,5 @@
 #coding=utf-8
-
+#hotfix
 #商超门店自动化测试用例
 
 import base1
