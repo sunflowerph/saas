@@ -833,7 +833,7 @@ if __name__ == "__main__":
     # testunit.addTest(TestStore("test_lc_delete_feedback"))#删除门店反馈
 
 
-    filename = '/users/ph/desktop/result.html'
+    filename = '/users/ph/desktop/store.html'
     fp = file(filename, 'wb')
         # 定义测试报告
     runner = HTMLTestRunner.HTMLTestRunner(
