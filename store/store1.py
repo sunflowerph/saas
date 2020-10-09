@@ -6,7 +6,7 @@ import base1
 import unittest
 import time
 import datetime
-import HTMLTestRunner
+# import HTMLTestRunner
 
 
 class TestStore(unittest.TestCase):
