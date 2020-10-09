@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5486c5e-a983-48e2-9521-0ea49a2a8fc0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/store/store.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/store.py" afterDir="false" />
-    </list>
+    <list default="true" id="b5486c5e-a983-48e2-9521-0ea49a2a8fc0" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -460,6 +458,28 @@
       <option name="presentableId" value="Default" />
       <updated>1568169471248</updated>
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1600504947519</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600504947519</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update">
+      <created>1600505116590</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600505116590</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update">
+      <created>1600505186079</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600505186079</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -547,6 +567,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
